@@ -4,7 +4,7 @@ require 'geocoder'
 require 'timezone'
 
 get '/' do 
-	"Hello, World Za !"
+	erb :form 
 end
 get '/about' do
 	"There is something around!!!"
